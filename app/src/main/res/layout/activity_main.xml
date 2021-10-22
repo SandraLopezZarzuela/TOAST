@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="625dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/buttonToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:text="TOAST"
+            android:textColor="#FFEB3B" />
+
+        <TextView
+            android:id="@+id/showCount"
+            android:layout_width="match_parent"
+            android:layout_height="521dp"
+            android:background="#FFEB3B"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#3F51B5"
+            android:textSize="180sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:text="COUNT"
+            android:textColor="#FFEB3B" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
